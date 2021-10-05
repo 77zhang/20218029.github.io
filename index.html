@@ -1,46 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<link href="all.css" rel="stylesheet"  media="all" type="text/css" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>个人主页</title>
+<meta charset="utf-8">
+<title>20218029 리양</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="" />
+<meta name="author" content="http://webthemez.com" />
+<!-- css -->
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link href="css/jcarousel.css" rel="stylesheet" />
+<link href="css/flexslider.css" rel="stylesheet" />
+<link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" />
+ 
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
 </head>
 <body>
-<div class="banner">
-  <img src="1.jpg" width="100%" /> 
+<div id="wrapper">
+	<!-- start header -->
+	<header>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"/></a>
+                </div>
+                <div class="navbar-collapse collapse ">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li> 
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+	</header>
+	<!-- end header -->
+	<section id="featured">
+	 
+	<!-- Slider -->
+        <div id="main-slider" class="flexslider">
+            <ul class="slides">
+              <li>
+                <img src="img/slides/1.jpg" alt="" />
+                <div class="flex-caption">
+                    <h3>20218029 리양</h3> 
+					<p>This is my home page.</p>  
+                </div>
+              </li>
+              <li>
+                <img src="img/slides/2.png" alt="" />
+                <div class="flex-caption">
+                    <h3>20218029 리양</h3> 
+					<p>This is my home page.</p> 
+                </div>
+              </li>
+              <li>
+                <img src="img/slides/3.png" alt="" />
+                <div class="flex-caption">
+                    <h3>20218029 리양</h3> 
+					<p>This is my home page.</p>  
+                </div>
+              </li>
+            </ul>
+        </div>
+	<!-- end slider -->
+ 
+	</section>
+	<div class="content_white">
+  <h2>Welcome to my home page</h2>
+  <p>My name is LiYang, you can call me Leah. I'm from China. <br/></p>
 </div>
-
-<div class="content">
-  <div class="main">
-    <div class="index"> <img src="zhaopian.png" class="fl" width="160" /> <span>
-      <h3> 简介 </h3>
-      <p>我叫李洋（리양），学号20218029，是大三1班的学生。本人性格热情开朗，待人友好，为人诚实谦虚，学习勤奋，有责任心。<br />
-        学号：20218029 <br />
-        电话：15221881972 <br />
-        邮箱：907836215@qq.com<br />
-         作业：<a href="https://20218029.github.io/homework"><img border="2" src="homework.png"width="140" height="40" /></a> <br />
-        人生格言：人生最终的价值在于觉醒和思考的能力，而不只在于生存。</p>
-      </span>
-      <div class="clear"></div>
+<div class="featured_content">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-3 feature_grid1"> <i class="fa fa-trophy fa-3x"></i>
+        <h3><a href="#"></a></h3>
+        <p>心如镜，虽外景不断变化，镜面却不会转动，这就是一颗平常心，能够景转而心不转。</p>
+        <a href="#" class="feature_btn">More</a> </div>
+      <div class="col-md-3 feature_grid1"> <i class="fa fa-picture-o fa-3x"></i>
+        <h3><a href="#"></a></h3>
+        <p>把气愤的心境转化为柔和，把柔和的心境转化为爱，如此，这个世间将更加完美。</p>
+        <a href="#" class="feature_btn">More</a> </div>
+      <div class="col-md-3 feature_grid1"> <i class="fa fa-flask fa-3x"></i>
+        <h3><a href="#"></a></h3>
+        <p>活在忙与闲的两种境界里，才能俯仰自得，享受生活的乐趣，成就人生的意义。</p>
+        <a href="#" class="feature_btn">More</a> </div>
+      <div class="col-md-3 feature_grid1"> <i class="fa fa-user fa-3x"></i>
+        <h3><a href="#"></a></h3>
+        <p>如果我们可以改变情绪，我们就可以改变未来。</p>
+        <a href="#" class="feature_btn">More</a> </div>
     </div>
-    <div class="index"> <img src="cat.png" class="fr" width="300" /> <span>
-      <h3> 爱好 </h3>
-      <p>因为对绘画感兴趣，喜欢去探究和尝试各种画法的技巧和由来，去发现各种颜料和画笔在不同的纸张上的不同效果，主动购买相关书籍、画册，或者上网学习并与有相同爱好的人交流，尝试创作出自己满意的作品等等。
-        <br />健康的兴趣和爱好可以使我们更加热爱生活，珍惜时光。使我们的生活变得积极向上，充满正能量，能够让我们感受到生活充实和世间的美好。通过健康的兴趣爱好，驱使我们寻找兴趣知音，相结为友，相互支持，相互学习和帮助彼此，净化了我们的生活环境和精神世界。健康的兴趣和爱好，可以使我们愿意克服各种各样的困难，培养我们顽强的毅力，让我们能够沿着自己的目标坚强地走下去。</p>
-      </span>
-      <div class="clear"></div>
-    </div>
-    <div class="index"> <img src="shuangzi.jpg" class="fl" width="230" /> <span>
-      <h3> 星座 </h3>
-      <p>双子座，双子座（Gemini）是指出生日期为5月21日~6月21日，是黄道十二宫里的第三宫，位于金牛座之东，巨蟹座之西；代表了善变、沟通。<br />
-        盎然的春意表现在双子座的人性格上的主要特征是思维善变，无拘无束，对外界包罗万象的事物的永无休止的好奇心，可以说是机敏又不安的星座。 双子座的人反应灵敏，阳光活泼，无论年纪大小，都像孩子般活力四射，拥有一颗不老之心，喜欢新鲜感。</p>
-      </span>
-      <div class="clear"></div>
-    </div>
-    <div class="clear"></div>
   </div>
-  <div class="clear"></div>
 </div>
-<div class="end">
-  <p> </p>
+ 
+	<section id="content">
+	
+	
+	<div class="container">
+		
+	     <div class="row">
+							<div class="col-md-8">
+								<!-- Heading and para -->
+								<div class="block-heading-two">
+									<h3><span>My </span><a href="https://20218029.github.io/homework"><img border="8" src="homework.png"width="140" height="40" /></a></h3>
+									<br> <br />
+								</div>
+								<p>我叫李洋（리양），学号20218029，是大三1班的学生。
+             <br><br>本人性格热情开朗，待人友好，为人诚实谦虚，学习勤奋，有责任心。</p>
+								<p>电话：15221881972
+</p>
+								<p>邮箱：907836215@qq.com</p>
+								<p>人生格言：人生最终的价值在于觉醒和思考的能力，而不只在于生存。</p>
+							</div>
+							<div class="col-md-4">
+								<div class="block-heading-two">
+									<h3><span>brief introduction</span></h3>
+								</div>		
+								<!-- Accordion starts -->
+								<div class="panel-group" id="accordion-alt3">
+								 <!-- Panel. Use "panel-XXX" class for different colors. Replace "XXX" with color. -->
+								  <div class="panel">	
+									<!-- Panel heading -->
+									 <div class="panel-heading">
+										<h4 class="panel-title">
+										  <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseOne-alt3">
+											<i class="fa fa-angle-right"></i> Hobby
+										  </a>
+										</h4>
+									 </div>
+									 <div id="collapseOne-alt3" class="panel-collapse collapse">
+										<!-- Panel body -->
+										<div class="panel-body">
+										  健康的兴趣和爱好可以使我们更加热爱生活，珍惜时光。使我们的生活变得积极向上，充满正能量，能够让我们感受到生活充实和世间的美好。
+										</div>
+									 </div>
+								  </div>
+								  <div class="panel">
+									 <div class="panel-heading">
+										<h4 class="panel-title">
+										  <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseTwo-alt3">
+											<i class="fa fa-angle-right"></i> character
+										  </a>
+										</h4>
+									 </div>
+									 <div id="collapseTwo-alt3" class="panel-collapse collapse">
+										<div class="panel-body">
+										  性格一经形成便比较稳定，但是并非一成不变，而是可塑性的。性格不同于气质，更多体现了人格的社会属性，个体之间的人格差异的核心是性格的差异。
+										</div>
+									 </div>
+								  </div>
+								  <div class="panel">
+									 <div class="panel-heading">
+										<h4 class="panel-title">
+										  <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseThree-alt3">
+											<i class="fa fa-angle-right"></i> constellation
+										  </a>
+										</h4>
+									 </div>
+									 <div id="collapseThree-alt3" class="panel-collapse collapse">
+										<div class="panel-body">
+										 星座是指占星学中必不可少的组成部分之一，亦指天上一群群的恒星组合。自从古代以来，人类便把三五成群的恒星与他们神话中的人物或器具联系起来，称之为“星座”。
+										</div>
+									 </div>
+								  </div>
+								  <div class="panel">
+									 <div class="panel-heading">
+										<h4 class="panel-title">
+										  <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseFour-alt3">
+											<i class="fa fa-angle-right"></i>characteristic
+										  </a>
+										</h4>
+									 </div>
+									 <div id="collapseFour-alt3" class="panel-collapse collapse">
+										<div class="panel-body">
+										  性格是一个人对现实的稳定的态度，以及与这种态度相应的，习惯化了的行为方式中表现出来的人格特征。
+										</div>
+									 </div>
+								  </div>
+								</div>
+								<!-- Accordion ends -->
+								
+							</div>
+							
+					
+							
+						</div>
+	
+	
+	</div>
+	
+	</section>
+	<div class="testimonial-area">
+    <div class="testimonial-solid">
+        <div class="container"> 
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="">
+                        <a href="#"></a>
+                    </li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1" class="">
+                        <a href="#"></a>
+                    </li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2" class="active">
+                        <a href="#"></a>
+                    </li>
+                    <li data-target="#carousel-example-generic" data-slide-to="3" class="">
+                        <a href="#"></a>
+                    </li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item">
+                        <p>我家有只可爱的猫咪
+名字叫果果
+它长着四条腿
+喜欢到处跑</p>
+                        <p>
+                            <b></b>
+                        </p>
+                    </div>
+                    <div class="item">
+                        <p>我家有只可爱的猫咪
+名字叫果果
+它晚上睡不着
+白天叫不醒</p>
+                        <p>
+                            <b></b>
+                        </p>
+                    </div>
+                    <div class="item active">
+                        <p>我家有只可爱的猫咪
+名字叫果果
+它不爱看电视
+专门讨人厌 </p>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+	<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3">
+				<div class="widget">
+					<h5 class="widgetheading">人生智慧文库</h5>
+					<address>
+					<strong></strong><br>
+					Friends in Deed<br>
+					 挚友真情</address>
+					<p>
+						<i class="icon-phone"></i> The golden rules for lasting friendships <br>
+						<i class="icon-envelope-alt"></i>献给永恒友谊的金玉之言 
+					</p>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="widget">
+					<h5 class="widgetheading">真情</h5>
+					<ul class="link-list">
+						<li><a href="#">One of life's greatest blessings</a></li>
+						<li><a href="#">is a truly close lasting friendship.</a></li>
+						<li><a href="#">A cherished friend can make those hard times better</a></li>
+						<li><a href="#">and happy time even more memorable. </a></li>
+						<li><a href="#"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="widget">
+					<h5 class="widgetheading">友谊</h5>
+					<ul class="link-list">
+						<li><a href="#">  </a></li>
+						<li><a href="#"> </a></li>
+						
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="widget">
+					<h5 class="widgetheading"></h5>
+					<ul class="link-list">
+						<li><a href="#"> As with everything in life, </a></li>
+						<li><a href="#">true friendships take work and understanding </a></li>
+						<li><a href="#">and sometimes get more complicated </a></li>
+						<li><a href="#">and strained when they don't need to.</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="sub-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="copyright">
+						<p>
+							<span>&copy; My Home Page </span><a href="http://webthemez.com" target="_blank">WebThemez</a>
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<ul class="social-network">
+						<li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
+						<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</footer>
+</div>
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+<!-- javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script> 
+<script src="js/portfolio/jquery.quicksand.js"></script>
+<script src="js/portfolio/setting.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/animate.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/owl-carousel/owl.carousel.js"></script>
 </body>
-</HTML>
+</html>
