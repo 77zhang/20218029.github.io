@@ -1,32 +1,21 @@
-Free Responsive Bootstrap Template
-
-Basic is a free HTML5/CSS3 website template for multi-purpose requirment, This is well clean and clear html5 template built with valid HTML5 & CSS3. It's based on latest Bootstrap framework, fully responsive web compatible with multi browser and devices. This template can be used for multi-purpose requirments like business, consultancy, agency, personal portfolio, profile, mobile website and start-up company.
-
-Key features
--------------
-Twitter Bootstrap 3.3.1
-Clean & Developer-friendly HTML5 and CSS3 code
-100% Responsive Layout Design 
-Multi-purpose theme
-Google Fonts Support
-Font Awesome 
-Smooth Scrolling 
-Fully Customizable
-Contact Form
-
-
-Credits :
--------
-=> Design and developed: "WebThemez"  http://webthemez.com
-=> Photos used in template: **Unsplash** - http://unsplash.com
-=> For more free web themes: http://webthemez.com
-=> Framework : http://getbootstrap.com
-=> For more help: webthemez@gmail.com
-=> Do not remove the back-link from site. If you want remove back-link please donate some bucks.
-
-License :
--------
-**Creative Commons Attribution 3.0** - http://creativecommons.org/licenses/by/3.0/
-
 Note:
-All images user here is for demo purpose only, we are not responsible for any copyrights.
+====
+
+Responsive, Bootstrap Mobile First Web Template 
+Author URI: http://webthemez.com/
+
+B-School is a Educational Responsive web design template with a modern style theme from webthemez. This template can be used for multipurpose, Educational Institutes, Collage's, Schools, Training Institutes and many more. This theme is easy to customize as per you requirements and this is developed on latest technologies like HTML5, Bootstrap 3.3.1. This is fully Responsive web site.  
+ 
+
+Credits
+=======
+Framework  http://getbootstrap.com
+Images	(http://unsplash.com - CC0 licensed) and used form (google.com)
+http://www.track2realty.com/
+
+
+Icons	Font Awesome (http://fortawesome.github.com/Font-Awesome/)
+Other	html5shiv.js (@afarkas @jdalton @jon_neal @rem)
+
+
+Note: All the images used in this template is for demo use only, we are not responsible for any copyrights issue.	
